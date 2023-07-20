@@ -13,7 +13,7 @@ cd \winpe
 ```
 <br>
 
-Then we should mount the WinPE image to the "mount" file.<br>
+Then we should mount the WinPE image to the `"mount" file`.<br>
 You can copy the build command from [Autolaod_for_WinPE/build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build) to `"\winpe"`.<br>
 ```
 imagex /mountrw \winpe\winpe_c\media\sources\boot.wim 1 \winpe\mount
@@ -50,7 +50,7 @@ copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
 ```
 <br>
 
-Then, we can umount and commit for the "mount" file.
+Then, we can umount and commit for the `"mount" file`.
 ```
 imagex /unmount /commit \winpe\winpe_c\mount
 imagex /cleanup
