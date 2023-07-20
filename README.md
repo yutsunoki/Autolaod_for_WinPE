@@ -27,9 +27,7 @@ copy \Windows\System32\findstr.exe \winpe\mount\Windows\system32\
 ```
 <br>
 
-Here is the drivers and packages install for the WinPE. These drivers and packages that can found from "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs". <br>
-Please refer to the [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11).<br>
-Also can refer to the [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br>
+Here is the drivers and packages install for the WinPE. These drivers and packages that can found from "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs"[^1][^2]. <br>
 ```
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-DismCmdlets.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-EnhancedStorage.cab
@@ -45,3 +43,6 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WDS-Tools.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WinReCfg.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
+
+[^1][WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11).<br>
+[^2][HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br>
