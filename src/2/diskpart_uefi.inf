@@ -1,0 +1,9 @@
+select disk 0
+
+sel part 1
+assign letter=s
+
+sel vol c
+format quick fs=ntfs label="Windows"
+
+exit
