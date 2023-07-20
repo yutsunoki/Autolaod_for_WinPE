@@ -44,5 +44,5 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WinReCfg.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
 
-[^1][WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11).<br>
-[^2][HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br>
+[^1]: [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11).<br>
+[^2]: [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br>
