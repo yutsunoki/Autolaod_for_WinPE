@@ -14,7 +14,7 @@ cd \winpe
 <br>
 
 Then we should mount the WinPE image to the "mount" file.<br>
-You can copy the build command from [Autolaod_for_WinPE\build](https://github.com/yutsunoki/Autolaod_for_WinPE/build) to `\winpe`.<br>
+You can copy the build command from [Autolaod_for_WinPE\build](https://github.com/yutsunoki/Autolaod_for_WinPE/build) to `"\winpe"`.<br>
 ```
 imagex /mountrw \winpe\winpe_c\media\sources\boot.wim 1 \winpe\mount
 ```
