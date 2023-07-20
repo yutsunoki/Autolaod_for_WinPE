@@ -8,5 +8,8 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
 Create a WinPE with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
 ```
 copype amd64 \winpe
+copy \winpe
+mkdir winpe_c
+move media winpe_c
 ```
 To create [WinPE](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11)
