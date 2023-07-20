@@ -5,9 +5,8 @@ We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 ***
 ---
-~~~
-ji
-~~~
+...
+'''
 ## Guide
 Create a [WinPE](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11) with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
 Run Deployment and Imaging Tools Environment and execute this command.<br>
