@@ -55,5 +55,9 @@ Then, we can umount and commit for the `"mount" file`.
 imagex /unmount /commit \winpe\winpe_c\mount
 imagex /cleanup
 ```
+<br>
+
+![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)
+![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)
 
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
