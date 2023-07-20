@@ -14,7 +14,7 @@ cd \winpe
 <br>
 
 Then we should mount the WinPE image to the "mount" file.<br>
-You can copy the build command from [Autolaod_for_WinPE\build](https://github.com/yutsunoki/Autolaod_for_WinPE/build) to `"\winpe"`.<br>
+You can copy the build command from [Autolaod_for_WinPE\build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build) to `"\winpe"`.<br>
 ```
 imagex /mountrw \winpe\winpe_c\media\sources\boot.wim 1 \winpe\mount
 ```
@@ -44,7 +44,7 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
 <br> 
 
-After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE\src](https://github.com/yutsunoki/Autolaod_for_WinPE/src) to the `"\winpe\winpe_c\media\Windows\System32"`.
+After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE\src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.
 ```
 copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
 ```
