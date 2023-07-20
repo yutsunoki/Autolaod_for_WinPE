@@ -45,19 +45,27 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
 <br> 
 
-After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.
+After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
 ```
 copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
 ```
 <br>
 
-Then, we can umount and commit for the `"mount" file`.
+Then, we can umount and commit for the `"mount" file`.<br>
 ```
 imagex /unmount /commit \winpe\winpe_c\mount
 imagex /cleanup
 ```
 <br>
 
+Next, we gotta build iso with `oscdimg` command. <br>
+```
+oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\efisys.bin -u1 -udfver102 winpe_c\media winpe_f.iso
+```
+<br>
+
+After, the iso file builded, we should mount that iso file and switch to the iso drive. Then we'll copy all the folders and files to the USB.<br>
+The USB partition and format should be like this!<br>
 ![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)
 ![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)
 
