@@ -8,14 +8,13 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
 Create a [`WinPE`](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11) with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
 Run `Deployment and Imaging Tools Environment` and execute this command.<br>
 ```
-copype amd64 \winpe
+copype amd64 \winpe\winpe_c
 cd \winpe
-mkdir winpe_c
-move media winpe_c
 ```
 <br>
 
 Then we should mount the WinPE image to the "mount" file.<br>
+You can copy the build command from [Autolaod_for_WinPE\build](https://github.com/yutsunoki/Autolaod_for_WinPE/build) to `\winpe`.<br>
 ```
 imagex /mountrw \winpe\winpe_c\media\sources\boot.wim 1 \winpe\mount
 ```
@@ -42,6 +41,19 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-StorageWMI.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WDS-Tools.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WinReCfg.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
+```
+<br> 
+
+After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE\src](https://github.com/yutsunoki/Autolaod_for_WinPE/src) to the `"\winpe\winpe_c\media\Windows\System32"`.
+```
+copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
+```
+<br>
+
+Then, we can umount and commit for the "mount" file.
+```
+imagex /unmount /commit \winpe\winpe_c\mount
+imagex /cleanup
 ```
 
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
