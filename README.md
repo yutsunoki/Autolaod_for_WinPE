@@ -13,17 +13,17 @@ cd \winpe
 mkdir winpe_c
 move media winpe_c
 ```
-
+<br>
 Then we should mount the WinPE image to the "mount" file.<br>
 ```
 imagex /mountrw \winpe\winpe_c\media\sources\boot.wim 1 \winpe\mount
 ```
-
+<br>
 Copy the `findstr.exe` to the WinPE.<br>
 ```
 copy \Windows\System32\findstr.exe \winpe\mount\Windows\system32\
 ```
-
+<br>
 Here is the drivers and packages install for the WinPE. These drivers and packages that can found from "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs". <br>
 Please refer to the [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11).<br>
 Also can refer to the [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br>
