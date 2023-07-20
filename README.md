@@ -26,7 +26,7 @@ copy \Windows\System32\findstr.exe \winpe\mount\Windows\system32\
 ```
 <br>
 
-Here is the drivers and packages install for the WinPE. These drivers and packages that can found the location from `"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs"`[^1]. <br>
+Here is the drivers and packages install for the WinPE. These drivers and packages can be found from `"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs"`[^1]. <br>
 ```
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-DismCmdlets.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-EnhancedStorage.cab
