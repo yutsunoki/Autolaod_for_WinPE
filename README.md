@@ -72,4 +72,5 @@ The USB partition and format should be like this!!!🔻<br>
 Here are the inside of `"USBdata"` partition.🔻<br>
 ![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)<br>
 ***
+
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
