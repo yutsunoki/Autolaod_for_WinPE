@@ -92,6 +92,7 @@ Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partitio
 
 The `install.wim` file[^3] that can be found from original ISO file `"sources\install.wim"`[^3].<br>
 Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build) to build your own install.wim.
+**!important** > When execute the capture command your OS 
 ```
 dism /capture-image /imagefile:install.wim /capturedir:e:\ /scratchdir:scratch /name:win10_c /checkintegrity /verify /bootable /compress:maximum
 ```
