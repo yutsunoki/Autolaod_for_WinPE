@@ -67,7 +67,8 @@ oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\ef
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
 Then we'll copy all the folders and files to the USB.<br>
 The USB partition and format should be like this!!!🔻<br>
-![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)
-![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)
+![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)<br>
+Here are the inside of USBdata.🔻<br>
+![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)<br>
 
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
