@@ -91,6 +91,7 @@ Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partitio
 ### Where to find `install.wim` file 
 
 The `install.wim` file that can be found from original ISO file `"sources\install.wim"`.
+Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build).
 
 ***
 
@@ -98,4 +99,4 @@ The `install.wim` file that can be found from original ISO file `"sources\instal
 
 [^2]: [Oscdimg Command-Line Options](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/oscdimg-command-line-options?view=windows-11).
 
-[^note]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
+[^4]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
