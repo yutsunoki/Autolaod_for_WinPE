@@ -65,6 +65,7 @@ oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\ef
 ```
 <br>
 ### Install to the USB
+
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
 Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partition.<br>
 The USB partition and format should be like this!!!🔻<br>
