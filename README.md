@@ -8,7 +8,7 @@ We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 
 ### Table of contants.
-* [Guide](#guide)
+* [Guide](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#guide)
   - [To create a WinPE](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#to-create-a-WinPE) 
   - [Install to the USB](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#install-to-the-USB)
   - [Where to find `install.wim` file](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#where-to-find-installwim-file)
@@ -93,7 +93,7 @@ Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partitio
 The `install.wim` file[^3] that can be found from original ISO file `"sources\install.wim"`[^3].<br>
 Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build) to build your own install.wim.<br>
 **Important!** 
-> If you want to capture your current OS please ensure that they is perform from another OS environment, such as WinPE. By the way, before that please remove the [`startnet.cmd`](?plain=1#L61) first from the Winpe.
+> If you want to capture your current OS please ensure that they is perform from another OS environment, such as WinPE. By the way, before that please remove the [`startnet.cmd`](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md?plain=1#L61) first from the Winpe.
 ```
 dism /capture-image /imagefile:install.wim /capturedir:e:\ /scratchdir:scratch /name:win10_c /checkintegrity /verify /bootable /compress:maximum
 ```
