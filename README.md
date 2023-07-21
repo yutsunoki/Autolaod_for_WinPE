@@ -2,7 +2,7 @@
 ***
 
 ## Introduction <br>
-> This is my practical about the WinPE.<br>
+This is my practical about the WinPE.<br>
 We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 
@@ -76,9 +76,11 @@ oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\ef
 
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
 Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partition.<br>
-The USB partition and format should be like this!!!🔻<br>
+
+> The USB partition and format should be like this!!!🔻<br>
 ![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)<br>
-Here are the inside of `"USBdata"` partition.🔻<br>
+
+> Here are the inside of `"USBdata"` partition.🔻<br>
 ![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)<br>
 ***
 
