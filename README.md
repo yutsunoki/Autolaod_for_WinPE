@@ -11,11 +11,14 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
 * [Guide](#guide)
   - [To create a WinPE](#to-create-a-WinPE) 
   - [Install to the USB](#install-to-the-USB)
+  - [Where to find `install.wim` file](Where-to-find-installwim-file)
 
 ***
 
 ## Guide
+
 ### To create a WinPE
+
 Create a [`WinPE`](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11) with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
 Run `Deployment and Imaging Tools Environment` and execute this command.<br>
 ```
@@ -87,6 +90,9 @@ Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partitio
 
 ### Where to find `install.wim` file 
 
+The `install.wim` file that can be found from original ISO file `"sources\install.wim"`.
+
 ***
 
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
+[^2]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
