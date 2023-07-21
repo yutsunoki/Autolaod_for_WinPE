@@ -1,4 +1,5 @@
 # Autolaod_for_WinPE<br>
+
 ***
 
 ## Introduction <br>
@@ -12,6 +13,7 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
   - [Install to the USB](#install-to-the-USB)
 
 ***
+
 ## Guide
 ### To create a WinPE
 Create a [`WinPE`](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11) with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
@@ -77,11 +79,14 @@ oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\ef
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
 Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partition.<br>
 
-> The USB partition and format should be like this!!!🔻<br>
+> The USB partition and format should be like this!!! 🔻<br>
 ![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)<br>
 
-> Here are the inside of `"USBdata"` partition.🔻<br>
+> Here are the inside of `"USBdata"` partition. 🔻<br>
 ![map](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/map.png)<br>
+
+### Where to find `install.wim` file 
+
 ***
 
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
