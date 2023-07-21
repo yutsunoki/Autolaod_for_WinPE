@@ -8,8 +8,8 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
 
 ### Table of contants.
 * [Guide](#guide)
-  * [To create a WinPE](#to-create-a-WinPE) 
-  * [Install to the USB](#install-to-the-USB)
+  - [To create a WinPE](#to-create-a-WinPE) 
+  - [Install to the USB](#install-to-the-USB)
 
 ***
 ## Guide
