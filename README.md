@@ -2,6 +2,8 @@
 
 ***
 
+<a href="hi"/>
+
 ## Introduction <br>
 This is my practical about the WinPE.<br>
 We should format the OS with automatically and officially by using WinPE.<br>
@@ -98,7 +100,6 @@ Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://
 dism /capture-image /imagefile:install.wim /capturedir:e:\ /scratchdir:scratch /name:win10_c /checkintegrity /verify /bootable /compress:maximum
 ```
 
-<a href="hi"/>
 
 [hi](#hi)<br>
 
