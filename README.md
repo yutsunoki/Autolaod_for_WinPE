@@ -58,7 +58,7 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
 <br> 
 
-After, we can copy the <a name="startnetcmd"/>`startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
+After, we can copy the <a name="startnetcmd">`startnet.cmd`</a> from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
 ```
 copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
 ```
