@@ -65,7 +65,7 @@ oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\ef
 <br>
 
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
-Then we'll copy all the folders and files to the `winpe_f` of the USB partition.<br>
+Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partition.<br>
 The USB partition and format should be like this!!!🔻<br>
 ![disk](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/img/disk.png)<br>
 Here are the inside of USBdata.🔻<br>
