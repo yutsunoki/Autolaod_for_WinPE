@@ -7,7 +7,9 @@ We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 
 ### Table of contants.
-* [To create a WinPE](#to-create-a-WinPE) 
+* [Guide](#guide)
+  * [To create a WinPE](#to-create-a-WinPE) 
+  * [Install to the USB](#install-to-the-USB)
 
 ***
 ## Guide
