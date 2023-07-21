@@ -56,7 +56,7 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WDS-Tools.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WinReCfg.cab
 dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
-[^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).<br> 
+<br> 
 
 After, we can copy the `startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
 ```
@@ -75,7 +75,7 @@ Next, we gotta build iso with `oscdimg` command[^2]. <br>
 ```
 oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\efisys.bin -u1 -udfver102 winpe_c\media winpe_f.iso
 ```
-[^2]: [Oscdimg Command-Line Options](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/oscdimg-command-line-options?view=windows-11).<br>
+<br>
 
 ### Install to the USB
 
@@ -94,5 +94,8 @@ The `install.wim` file that can be found from original ISO file `"sources\instal
 
 ***
 
+[^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
 
-[^]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
+[^2]: [Oscdimg Command-Line Options](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/oscdimg-command-line-options?view=windows-11).
+
+[^note]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
