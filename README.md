@@ -64,6 +64,7 @@ Next, we gotta build iso with `oscdimg` command. <br>
 oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\efisys.bin -u1 -udfver102 winpe_c\media winpe_f.iso
 ```
 <br>
+
 ### Install to the USB
 
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
