@@ -90,7 +90,7 @@ Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partitio
 
 ### Where to find `install.wim` file 
 
-The `install.wim` file that can be found from original ISO file `"sources\install.wim"`.
+The `install.wim` file[^3] that can be found from original ISO file `"sources\install.wim"`[^3].<br>
 Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/build).
 
 ***
@@ -98,5 +98,7 @@ Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://
 [^1]: Here is the official manual of [WinPE option component](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11). Also can refer to [HaroldMitts/Build-CustomPE](https://github.com/HaroldMitts/Build-CustomPE).
 
 [^2]: [Oscdimg Command-Line Options](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/oscdimg-command-line-options?view=windows-11).
+
+[^3]: [Windows Image Files and Catalog Files Overview](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/wsim/windows-image-files-and-catalog-files-overview#windows-image-files). About the ESD file please refer to [how to extract install.esd to install.wim](https://www.wintips.org/how-to-extract-install-esd-to-install-wim-windows-10-8/)
 
 [^4]: [Capture and apply a Windows image](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
