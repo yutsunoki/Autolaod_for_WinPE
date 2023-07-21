@@ -58,7 +58,7 @@ dism /image:\winpe\winpe_c\mount /add-package /packegepath:WinPE-WMI.cab
 ```
 <br> 
 
-After, we can copy the <a id="startnetcmd"/>`startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
+After, we can copy the <a name="https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#startnetcmd"/>`startnet.cmd` from [Autolaod_for_WinPE/src](https://github.com/yutsunoki/Autolaod_for_WinPE/tree/main/src) to the `"\winpe\winpe_c\media\Windows\System32"`.<br>
 ```
 copy startnet.cmd \winpe\winpe_c\media\Windows\System32\
 ```
@@ -97,8 +97,6 @@ Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://
 ```
 dism /capture-image /imagefile:install.wim /capturedir:e:\ /scratchdir:scratch /name:win10_c /checkintegrity /verify /bootable /compress:maximum
 ```
-
-<pre>Text I want left alone@donotlinkme.example</pre>
 
 ***
 
