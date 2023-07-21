@@ -1,7 +1,7 @@
 # Autolaod_for_WinPE<br>
 ***
 ## Introduction <br>
-This is my practical about the WinPE.<br>
+> This is my practical about the WinPE.<br>
 We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 ***
