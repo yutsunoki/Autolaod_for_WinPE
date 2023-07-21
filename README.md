@@ -6,6 +6,7 @@ We should format the OS with automatically and officially by using WinPE.<br>
 Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinPE/edit/main/src/startnet.cmd).<br>
 ***
 ## Guide
+### To create a WinPE
 Create a [`WinPE`](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11) with [Windows ADK](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install).<br>
 Run `Deployment and Imaging Tools Environment` and execute this command.<br>
 ```
@@ -63,7 +64,7 @@ Next, we gotta build iso with `oscdimg` command. <br>
 oscdimg -bootdata:2#p0,e,bwinpe_c\fwfiles\etfsboot.com#pEF,e,bwinpe_c\fwfiles\efisys.bin -u1 -udfver102 winpe_c\media winpe_f.iso
 ```
 <br>
-
+### Install to the USB
 After, the iso file builded, we should mount that iso file and switch to the iso drive.
 Then we'll copy all the folders and files to the `"WINPE_F"` of the USB partition.<br>
 The USB partition and format should be like this!!!🔻<br>
