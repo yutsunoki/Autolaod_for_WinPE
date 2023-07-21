@@ -12,7 +12,7 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
   - [To create a WinPE](#to-create-a-WinPE) 
   - [Install to the USB](#install-to-the-USB)
   - [Where to find `install.wim` file](Where-to-find-installwim-file)
-
+[`startnet.cmd`](#startnetcmd)
 ***
 
 ## Guide
