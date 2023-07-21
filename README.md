@@ -9,15 +9,13 @@ Here is the script [startnet.cmd](https://github.com/yutsunoki/Autolaod_for_WinP
 
 ### Table of contants.
 * [Guide](#guide)
-  - [To create a WinPE](#to-create-a-WinPE) 
-  - [Install to the USB](#install-to-the-USB)
-  - [Where to find `install.wim` file](Where-to-find-installwim-file)
+  - [To create a WinPE](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#to-create-a-WinPE) 
+  - [Install to the USB](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#install-to-the-USB)
+  - [Where to find `install.wim` file](https://github.com/yutsunoki/Autolaod_for_WinPE/blob/main/README.md#where-to-find-installwim-file)
     
 ***
 
 ## Guide
-
-<a name="to-create-a-WinPE"/>
 
 ### To create a WinPE
 
