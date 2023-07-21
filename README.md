@@ -99,6 +99,6 @@ Also, can use the `capture` command[^4] from [Autolaod_for_WinPE/build](https://
 
 [^2]: Please refer to ["Oscdimg Command-Line Options"](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/oscdimg-command-line-options?view=windows-11).
 
-[^3]: [Windows Image Files and Catalog Files Overview](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/wsim/windows-image-files-and-catalog-files-overview#windows-image-files). About the ESD file please refer to ["how to extract install.esd to install.wim"](https://www.wintips.org/how-to-extract-install-esd-to-install-wim-windows-10-8/)
+[^3]: For the install.wim defination please refer to ["Windows Image Files and Catalog Files Overview"](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/wsim/windows-image-files-and-catalog-files-overview#windows-image-files). About the ESD file please refer to ["how to extract install.esd to install.wim"](https://www.wintips.org/how-to-extract-install-esd-to-install-wim-windows-10-8/)
 
 [^4]: How to build own install.wim please refer to ["Capture and apply a Windows image"](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim?view=windows-11)
